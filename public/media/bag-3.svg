@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 340" role="img" aria-label="Pink bag">
+  <defs>
+    <linearGradient id="g3" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fbe7ef"/>
+      <stop offset="100%" stop-color="#efb7cc"/>
+    </linearGradient>
+  </defs>
+  <rect width="420" height="340" fill="#fff9fc"/>
+  <ellipse cx="210" cy="288" rx="128" ry="22" fill="#e9cbda" opacity="0.7"/>
+  <path d="M112 114c0-56 42-86 98-86s98 30 98 86" fill="none" stroke="#876172" stroke-width="13" stroke-linecap="round"/>
+  <rect x="80" y="95" width="260" height="175" rx="34" fill="url(#g3)" stroke="#876172" stroke-width="7"/>
+  <rect x="136" y="138" width="148" height="18" rx="9" fill="#d49db5"/>
+  <rect x="193" y="132" width="34" height="30" rx="6" fill="#fff1f6" stroke="#876172" stroke-width="4"/>
+</svg>

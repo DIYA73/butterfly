@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pink Bag Studio App</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header class="top-nav">
+      <div class="page-shell nav-wrap">
+        <div class="brand">
+          <span class="brand-mark"></span>
+          <span>Pink Bag Studio App</span>
+        </div>
+        <nav class="nav-links">
+          <a href="/">Home</a>
+          <a href="/video.html">Video Page</a>
+          <button id="logoutBtn" type="button">Logout</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <h1 class="page-title" id="welcomeTitle">Welcome</h1>
+      <p class="page-subtitle">
+        Drag any bag card and drop it next to another bag to build your styling board exactly the way you want.
+      </p>
+
+      <section>
+        <div class="app-toolbar">
+          <div class="toolbar-group">
+            <input id="searchInput" class="search-input" placeholder="Search by name or line" />
+            <input id="maxPriceInput" class="range-input" type="number" min="0" step="100" placeholder="Max price" />
+            <button class="btn ghost" id="resetFiltersBtn" type="button">Reset</button>
+          </div>
+          <div class="toolbar-group">
+            <button class="btn secondary" id="saveBoardBtn" type="button">Save Board</button>
+          </div>
+        </div>
+
+        <p class="drag-note">Tip: drag a bag card and drop it onto another card to reorder your board.</p>
+        <div class="drag-board" id="bagBoard"></div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">Global Luxury Boutiques</h2>
+            <p class="section-copy">Open map directions to famous shop districts.</p>
+          </div>
+        </div>
+        <div class="locations-grid" id="dashboardShops"></div>
+      </section>
+
+      <footer class="footer">
+        <div>Your board order is saved in browser local storage.</div>
+      </footer>
+    </main>
+
+    <script src="/js/api.js"></script>
+    <script src="/js/app.js"></script>
+  </body>
+</html>

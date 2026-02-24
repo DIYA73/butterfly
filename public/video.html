@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pink Bag Studio Video</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header class="top-nav">
+      <div class="page-shell nav-wrap">
+        <div class="brand">
+          <span class="brand-mark"></span>
+          <span>Pink Bag Studio Video</span>
+        </div>
+        <nav class="nav-links">
+          <a href="/">Home</a>
+          <a href="/app.html">Open App</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="video-hero reveal">
+        <video id="fashionVideo" autoplay muted loop playsinline poster="/media/bag-2.svg">
+          <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
+        </video>
+        <div class="video-overlay">
+          <h1>Runway Motion, Pink Edition</h1>
+          <p>
+            Dedicated video page for your website. Keep this section as your campaign area and replace the
+            video source with your own Pinterest-inspired handbag footage anytime.
+          </p>
+          <div class="hero-actions">
+            <a class="btn" href="/app.html">Build Your Bag Board</a>
+            <a class="btn secondary" href="/">Back To Home</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="video-fallback" id="videoFallback">
+        Video could not load from remote source. Replace the source in <code>public/video.html</code> with your own .mp4 file.
+      </div>
+
+      <section>
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">Video Page Product Strip</h2>
+            <p class="section-copy">Auto-loaded from backend products API.</p>
+          </div>
+        </div>
+        <div class="video-track-wrap">
+          <div class="video-track" id="videoTrack"></div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">Creative Direction</h2>
+            <p class="section-copy">Pink gradient, luxury typography, energetic movement, and modern editorial spacing.</p>
+          </div>
+        </div>
+        <div class="locations-grid">
+          <article class="card shop-card">
+            <h3>Visual Tone</h3>
+            <div>Warm pink palette with gold-inspired accents and cream balance.</div>
+          </article>
+          <article class="card shop-card">
+            <h3>Motion</h3>
+            <div>Floating hero object, animated ribbons, and draggable cards for interactive styling.</div>
+          </article>
+          <article class="card shop-card">
+            <h3>App-Ready</h3>
+            <div>Backend auth API, real login, and protected dashboard routing.</div>
+          </article>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div>Video experience page for your luxury handbag brand.</div>
+      </footer>
+    </main>
+
+    <script src="/js/api.js"></script>
+    <script src="/js/video.js"></script>
+  </body>
+</html>

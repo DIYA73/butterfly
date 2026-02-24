@@ -1,0 +1,52 @@
+[
+  {
+    "id": "shop-paris",
+    "name": "Maison Lumiere Paris",
+    "city": "Paris",
+    "country": "France",
+    "address": "Faubourg Saint-Honore, 8th arrondissement",
+    "mapLink": "https://maps.google.com/?q=48.870468,2.316664",
+    "lat": 48.870468,
+    "lng": 2.316664
+  },
+  {
+    "id": "shop-nyc",
+    "name": "Maison Lumiere New York",
+    "city": "New York",
+    "country": "USA",
+    "address": "Madison Avenue, Manhattan",
+    "mapLink": "https://maps.google.com/?q=40.766289,-73.970857",
+    "lat": 40.766289,
+    "lng": -73.970857
+  },
+  {
+    "id": "shop-tokyo",
+    "name": "Maison Lumiere Tokyo",
+    "city": "Tokyo",
+    "country": "Japan",
+    "address": "Ginza luxury district",
+    "mapLink": "https://maps.google.com/?q=35.671837,139.765005",
+    "lat": 35.671837,
+    "lng": 139.765005
+  },
+  {
+    "id": "shop-dubai",
+    "name": "Maison Lumiere Dubai",
+    "city": "Dubai",
+    "country": "UAE",
+    "address": "Dubai Mall Fashion Avenue",
+    "mapLink": "https://maps.google.com/?q=25.197525,55.279489",
+    "lat": 25.197525,
+    "lng": 55.279489
+  },
+  {
+    "id": "shop-milan",
+    "name": "Maison Lumiere Milan",
+    "city": "Milan",
+    "country": "Italy",
+    "address": "Via Monte Napoleone",
+    "mapLink": "https://maps.google.com/?q=45.467437,9.196658",
+    "lat": 45.467437,
+    "lng": 9.196658
+  }
+]

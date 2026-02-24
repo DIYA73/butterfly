@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pink Bag Studio | Luxury Handbags</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header class="top-nav">
+      <div class="page-shell nav-wrap">
+        <div class="brand">
+          <span class="brand-mark"></span>
+          <span>Pink Bag Studio</span>
+        </div>
+        <nav class="nav-links">
+          <a href="/">Home</a>
+          <a href="/video.html">Video Page</a>
+          <a href="#shops">Shop Locations</a>
+          <button id="openAuthBtn" type="button">Login</button>
+          <a class="btn" href="/app.html">Open App</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="hero reveal">
+        <div>
+          <h1>Luxury Pink Handbag Web App, Full Energy</h1>
+          <p>
+            Inspired by your pink moodboard: elegant silhouettes, modern motion, and a real app flow
+            with authentication, drag-and-drop bag styling, video showcase, and global boutique locations.
+          </p>
+          <div class="hero-actions">
+            <button class="btn" id="joinNowBtn" type="button">Login To Start</button>
+            <a class="btn secondary" href="/video.html">Watch Video Collection</a>
+          </div>
+          <div class="energy-pills">
+            <span class="energy-pill">Pink Luxury Palette</span>
+            <span class="energy-pill">Drag & Drop Board</span>
+            <span class="energy-pill">Frontend + Backend Ready</span>
+          </div>
+        </div>
+
+        <div class="hero-stage">
+          <img class="floating-bag" id="heroBagImage" src="/media/bag-1.svg" alt="Luxury pink handbag" />
+          <div class="badge-board">
+            <span>New Collection 2026</span>
+            <span>Exclusive Atelier Edit</span>
+            <span>Paris | NYC | Tokyo</span>
+          </div>
+        </div>
+      </section>
+
+      <section aria-label="Trend tags">
+        <div class="ribbon-track">
+          <span class="ribbon">Birkin Mood</span>
+          <span class="ribbon">Rose Gold Hardware</span>
+          <span class="ribbon">Soft Suede Pink</span>
+          <span class="ribbon">Runway Croc Texture</span>
+          <span class="ribbon">Minimal Editorial</span>
+          <span class="ribbon">Luxury Lifestyle</span>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">Featured Pink Collection</h2>
+            <p class="section-copy">Products are served by your backend API.</p>
+          </div>
+        </div>
+        <div class="product-grid" id="productGrid"></div>
+      </section>
+
+      <section id="shops">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">Famous Shop Locations</h2>
+            <p class="section-copy">Open any boutique in maps instantly.</p>
+          </div>
+        </div>
+        <div class="locations-grid" id="shopGrid"></div>
+      </section>
+
+      <footer class="footer">
+        <div>Pink Bag Studio, handcrafted for your GitHub launch.</div>
+      </footer>
+    </main>
+
+    <section class="auth-modal hidden" id="authModal" aria-hidden="true">
+      <div class="auth-panel">
+        <div class="auth-head">
+          <button class="tab-btn active" type="button" data-tab="login">Login</button>
+          <button class="tab-btn" type="button" data-tab="register">Register</button>
+          <button class="tab-btn" type="button" id="closeAuthBtn" style="margin-left: auto">Close</button>
+        </div>
+
+        <div class="auth-body">
+          <form class="auth-form active" id="loginForm">
+            <div class="field">
+              <label for="loginEmail">Email</label>
+              <input id="loginEmail" name="email" type="email" required />
+            </div>
+            <div class="field">
+              <label for="loginPassword">Password</label>
+              <input id="loginPassword" name="password" type="password" required minlength="6" />
+            </div>
+            <div class="form-footer">
+              <button class="btn" type="submit">Login</button>
+              <span class="form-message" id="loginMessage"></span>
+            </div>
+          </form>
+
+          <form class="auth-form" id="registerForm">
+            <div class="field">
+              <label for="registerName">Name</label>
+              <input id="registerName" name="name" type="text" required />
+            </div>
+            <div class="field">
+              <label for="registerEmail">Email</label>
+              <input id="registerEmail" name="email" type="email" required />
+            </div>
+            <div class="field">
+              <label for="registerPassword">Password</label>
+              <input id="registerPassword" name="password" type="password" required minlength="6" />
+            </div>
+            <div class="form-footer">
+              <button class="btn" type="submit">Create Account</button>
+              <span class="form-message" id="registerMessage"></span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="/js/api.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
