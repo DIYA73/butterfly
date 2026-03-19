@@ -1,4 +1,4 @@
-# Butterfly
+# 🦋Butterfly
 
 Luxury pink handbag web experience built with a modern full-stack setup.
 
